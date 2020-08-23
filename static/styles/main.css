@@ -1,0 +1,32 @@
+.defaultHero {
+    margin-top: 2px;
+    
+    height: 500px;
+    width: 1110px;
+  
+    /* background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Focean%2F&psig=AOvVaw2Wj4YHkP-gQ-9pXo3bB2K_&ust=1595413264461000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKCwmNmP3uoCFQAAAAAdAAAAABAD")
+      center/cover no-repeat; */
+  
+    background: url("/static/images/d7.jpg") no-repeat center content-box scroll; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: seagreen solid 5px;
+    border-top: seagreen solid 5px;
+  }
+  .banner {
+    display: inline;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5rem 20rem;
+    text-align: center;
+    letter-spacing: 0.5rem;
+   
+  }
+  .banner h1 {
+    font-size: 4.5rem;
+    color: #c0c0c0;
+  }
+  .banner p {
+    font-size: 1.5rem;
+    color: wheat;
+  }
